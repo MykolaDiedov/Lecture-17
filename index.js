@@ -6,7 +6,7 @@ function fibonacci() {
 
         if (cash.has(number)) {
 
-            return `You have this number in cash. The result is ${cash.get(number)}`;
+            return cash.get(number);
         }
         function *generateFibonacci () {
             let firstNumber = 0;
